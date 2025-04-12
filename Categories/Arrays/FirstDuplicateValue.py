@@ -9,7 +9,7 @@ Note that you're allowed to mutate the input
 """
 
 def firstDuplicateValue(array):
-    # Write your code here.
+
     copy = list(array)
     for i in copy:
         if array[i-1] < 0:
